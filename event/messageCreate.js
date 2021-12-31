@@ -20,7 +20,7 @@ module.exports = {
                 command.execute(client, message, args);
                 
                 } catch (error) {
-                     message.channel.send('**Je suis désoler mais il y à eu une erreur durant l\'execution du code** By Xiaotoxdev')
+                     message.channel.send('** I\m sorry but there was an error during the execution of the code **  By Xiaotoxdev')
                 };
             }
         }
