@@ -10,21 +10,21 @@ module.exports = {
 			.addComponents(
 				new MessageSelectMenu()
 					.setCustomId('select')
-					.setPlaceholder('Séléctioner le type de ticket à crée.')
+					.setPlaceholder('Select the type of ticket to create.')
 					.addOptions([
 						{
-							label: '🤝 | Partenariat',
-							description: 'Ouvre un ticket partenariat.',
+							label: '🤝 | Partner',
+							description: 'Open a partnership ticket.',
 							value: 'partenariat',
 						},
 						{
-							label: '📛 | Plainte',
-							description: 'Ouvre un ticket de plainte',
+							label: '📛 | Complaint',
+							description: 'Open a complaint ticket ',
 							value: 'plainte',
 						},
                         {
-							label: '👥 | Recrutement',
-							description: 'Ouvre un ticket pour faire une demande de recrutement',
+							label: '👥 | Recruitment',
+							description: 'Open a ticket to apply for recruitment',
 							value: 'recrutement',
 						},
 					]),
@@ -32,8 +32,8 @@ module.exports = {
 
         message.channel.send({
             embeds: [{
-                title: 'Ouvrir un ticket',
-                description: '**__Comment Ouvrir Un Ticket :__**\nVeillez choisir le type de ticket que vous souhaitez ouvrir.',
+                title: 'Open ticket',
+                description: '**__How To Open A Ticket :__**\nPlease choose the type of ticket you wish to open.',
                 color: "BLURPLE",
                 footer: {text: 'DevFr Support'}
             }],
