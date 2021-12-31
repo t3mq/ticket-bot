@@ -23,7 +23,7 @@ npm i
 ```
 
 ```bash
-**You cant edit :**
+//You cant edit :
 ID_ROLES (line 23)
 ID_CATEGORIES (line 22)
 ```
