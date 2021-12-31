@@ -6,7 +6,7 @@ Ticket Bot is a discord ticket bot with buttons made with Discord.js v13
 
 You need to have Node.JS 16+
 ``````bash
-git clone https://github.com/Sayrix/ticket-bot
+git clone https://github.com/Xiaotoxdev/ticket-bot.git
 cd ticket-bot
 npm i
 ``````
