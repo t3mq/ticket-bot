@@ -7,7 +7,7 @@ module.exports = {
 
         var compteurStatus = 1
         setInterval(async () => {
-            status =  [`Jouyeux Noel`]
+            status =  [`Ticket Bot`]
             compteurStatus = (compteurStatus + 1) % (status.length);
             client.user.setPresence({
                 activities: [{
