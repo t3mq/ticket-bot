@@ -18,7 +18,6 @@ npm i
 {
     "token": "TOKEN",
     "prefix": "PREFIX",
-    "DBURL": "DATABASE_MONGODB"
 }
 ```
 
