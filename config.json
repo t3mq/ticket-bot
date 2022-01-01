@@ -1,5 +1,4 @@
 {
     "token": "TOKEN",
-    "prefix": "PREFIX",
-    "DBURL": "DATABASE_MONGODB"
+    "prefix": "PREFIX"
 }
